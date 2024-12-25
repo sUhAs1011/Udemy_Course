@@ -1,3 +1,8 @@
 # Udemy_Course
 
-1."Deep Q-Learning for Lunar Landing", is an implementation of the Deep Q-Learning algorithm for solving the Lunar Lander problem in OpenAI Gym environments, where we are using Q-Learning for training the agent for proper landing between the flags. Here we are create a neural network and the agent stores all the previous values and based on these past values the agent is trained and then the Q-values are updated using the bellaman equation and finally the the landing is visualized basically indicating the performance of the agent
+#Deep Q-Learning for Lunar Landing
+This code implements the Deep Q-Learning algorithm to solve the Lunar Lander problem in OpenAI Gym. The objective is to train an agent to land a spacecraft safely between the flags.
+
+A neural network is utilized as a function approximator for estimating Q-values. The agent stores experiences from previous interactions with the environment in a replay memory, enabling it to learn from past actions and outcomes. The Q-values are updated iteratively using the Bellman equation to optimize the agent's decision-making.
+
+The training process focuses on enabling the agent to develop policies for stable and successful landings. Finally, the performance of the trained agent is visualized, showcasing its ability to land effectively and safely within the designated area.
