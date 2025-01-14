@@ -10,5 +10,9 @@ The training process focuses on enabling the agent to develop policies for stabl
 
 ### 2.Deep Q-Learning for Pac Man
 
-This code is also similar to the deep Q-learning code of lunar landing, but in this code it is for Pac Man.
+This code is also similar to the deep Q-learning code of lunar landing, but in this code it is for Pac Man.This code is implemented using the gymnisium module, where there is state space and the action space,
+first pre-processing is done so that the frames are suitable for the neural network model and then Q-value is estimated and then after cycle the Q-value is update using the bellman equation.
+
+
+The agent interacts with the Pac-Man game over multiple episodes, aiming to learn optimal actions for maximizing the score. After each move, it stores experiences in a replay buffer and uses them to train the neural network, improving its decision-making capabilities. 
 
