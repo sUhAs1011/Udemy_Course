@@ -28,3 +28,9 @@ Generally the key concepts of this algorith are:
 
 This is a very good and an efficient algorithm as it helps in stabilized learning and efficient resource utilization
 
+
+![udemy](https://github.com/user-attachments/assets/dd32984c-ce27-4ec3-b5f5-4dcc19da57bd)
+
+
+
+
