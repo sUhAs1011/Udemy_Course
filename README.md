@@ -17,4 +17,14 @@ first pre-processing is done so that the frames are suitable for the neural netw
 The agent interacts with the Pac-Man game over multiple episodes, aiming to learn optimal actions for maximizing the score. After each move, it stores experiences in a replay buffer and uses them to train the neural network, improving its decision-making capabilities. 
 
 ### 3.A3C for Kung Fu
+This kung fu game is implemented using A3C algorithm, which is a type of reinforcement learning which basically combines both policy based and value based methods, This algorithm introduces asynchronous training to improve training and effiiceny in the environments with complex dynamics.
+
+Generally the key concepts of this algorith are:
+
+1.Actor-Critic Framework
+2.Advantage Function
+3.Asynchronous Updates
+4.On-Policy Learning
+
+This is a very good and an efficient algorithm as it helps in stabilized learning and efficient resource utilization
 
