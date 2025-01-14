@@ -16,3 +16,5 @@ first pre-processing is done so that the frames are suitable for the neural netw
 
 The agent interacts with the Pac-Man game over multiple episodes, aiming to learn optimal actions for maximizing the score. After each move, it stores experiences in a replay buffer and uses them to train the neural network, improving its decision-making capabilities. 
 
+### 3.A3C for Kung Fu
+
